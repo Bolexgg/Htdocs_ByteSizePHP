@@ -1,7 +1,10 @@
-body {
-    font-family: 'Consolas', 'Courier New', monospace; 
-  }
-  
+@font-face {
+  font-family: Alatsi;
+  src: url(fonts/font2/Alatsi-Regular.ttf);
+}
+
+body{
+    font-family: Alatsi;
 .banner{
 
     background: linear-gradient(to bottom, #FFF7C6, #FFC0CB);;
@@ -30,7 +33,7 @@ body {
 }
 
 .content_title{
-    font-family: 'Consolas', 'Courier New', monospace; 
+    font-family: Alatsi;
     margin-bottom: 10px;
     font-weight: bold;
 }
@@ -44,6 +47,7 @@ body {
   
 
   .accept-btn {
+    font-family: Alatsi;
     background-color: #FFFF;
     border: 1px solid black;
     padding: 10px 20px;
@@ -58,6 +62,7 @@ body {
   
 
   .decline-btn {
+      
     background-color: #dc3545;
     color: white;
     padding: 10px 20px;
