@@ -1,10 +1,13 @@
-body {
-    font-family: 'Consolas', 'Courier New', monospace; 
-  }
-  
+@font-face {
+  font-family: Alatsi;
+  src: url(fonts/font2/Alatsi-Regular.ttf);
+}
+
+body{
+    font-family: Alatsi;
 .banner{
 
-    background: linear-gradient(to bottom, #FFF7C6, #FFC0CB);
+    background: linear-gradient(to bottom, #FFF7C6, #FFC0CB);;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -30,14 +33,9 @@ body {
 }
 
 .content_title{
-    font-family: 'Consolas', 'Courier New', monospace; 
+    font-family: Alatsi;
     margin-bottom: 10px;
     font-weight: bold;
-    text-align: center;
-}
-
-.content{
-  text-align: justify;
 }
 
 .button-container {
@@ -48,18 +46,32 @@ body {
   }
   
 
-  .close-btn {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    background-color: transparent;
-    border: none;
-    font-size: 20px;
-    font-weight: bold;
+  .accept-btn {
+    font-family: Alatsi;
+    background-color: #FFFF;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
     cursor: pointer;
-    color: #333;
   }
   
-  .close-btn:hover {
-    color: red;
+  .accept-btn:hover {
+    background-color: #5aa36a;
+  }
+  
+
+  .decline-btn {
+      
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .decline-btn:hover {
+    background-color: #c82333;
   }
